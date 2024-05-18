@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "aekky",
-    "slug": "aekky",
+    "name": "exchangeRate",
+    "slug": "exchangeRate",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/exchange-rate.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-aekky.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/exchange-rate.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.namput.aekky"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c3e948b-38c5-43cc-8e05-427d66a50313"
+      }
     }
   }
 }
